@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulb Tutorial</title>
+    <style>
+        img{
+            width: 310px;
+            height: 310px;
+        }
+    </style>
+</head>
+<body>
+    <img id="bulb" src="mybulb.jpg" alt="">
+    <button id="bulbSwitch" onclick="switchBulb()">ON</button>
+    <script type="text/javascript">
+        
+        const switchBulb = () =>{
+            if(bulbSwitch.innerText =='on'){
+            bulb.src = 'litbulb.jpg';
+            bulbSwitch.innerText = 'off';
+        }else{
+            bulb.src = 'mybulb.jpg';
+            bulbSwitch.innerText = 'on';
+        }
+
+
+        }
+        if(bulb){
+
+        }
+    </script>
+</body>
+</html>
